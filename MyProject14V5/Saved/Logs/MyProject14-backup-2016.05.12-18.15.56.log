@@ -1,0 +1,688 @@
+﻿[2016.05.12-23.39.37:901][  0]Log file open, 05/12/16 16:39:37
+[2016.05.12-23.39.37:901][  0]LogInit:Display: Running engine for game: MyProject14
+[2016.05.12-23.39.37:901][  0]LogPlatformFile: Not using cached read wrapper
+[2016.05.12-23.39.37:901][  0]LogInit:Display: RandInit(1804568196) SRandInit(1804568198).
+[2016.05.12-23.39.37:901][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.05.12-23.39.37:901][  0]LogStats: Stats thread started at 0.068692
+[2016.05.12-23.39.37:901][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.05.12-23.39.37:901][  0]LogInit: API Version: 2758231
+[2016.05.12-23.39.37:901][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.05.12-23.39.37:901][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.05.12-23.39.37:901][  0]LogInit: Build Configuration: Development
+[2016.05.12-23.39.37:901][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.05.12-23.39.37:901][  0]LogInit: Command line:  
+[2016.05.12-23.39.37:901][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.05.12-23.39.37:901][  0]LogInit: Rocket: 1
+[2016.05.12-23.39.37:949][  0]LogInit: Using libcurl 7.41.0
+[2016.05.12-23.39.37:949][  0]LogInit:  - built for x86_64-pc-win32
+[2016.05.12-23.39.37:949][  0]LogInit:  - supports SSL with WinSSL
+[2016.05.12-23.39.37:949][  0]LogInit:  - other features:
+[2016.05.12-23.39.37:949][  0]LogInit:      CURL_VERSION_SSL
+[2016.05.12-23.39.37:949][  0]LogInit:      CURL_VERSION_IPV6
+[2016.05.12-23.39.37:949][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.05.12-23.39.37:949][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.05.12-23.39.37:949][  0]LogInit:      CURL_VERSION_IDN
+[2016.05.12-23.39.37:949][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.05.12-23.39.37:949][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.05.12-23.39.37:949][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.05.12-23.39.37:949][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.05.12-23.39.37:950][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.05.12-23.39.37:966][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.05.12-23.39.37:977][  0]LogInit: Object subsystem initialized
+[2016.05.12-23.39.37:978][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.12-23.39.37:978][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.12-23.39.38:106][  0]LogInit: Computer: COLLEGE-PC
+[2016.05.12-23.39.38:106][  0]LogInit: User: Marco
+[2016.05.12-23.39.38:106][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.05.12-23.39.38:106][  0]LogInit: High frequency timer resolution =1.753828 MHz
+[2016.05.12-23.39.38:106][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.05.12-23.39.38:106][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.12-23.39.38:106][  0]LogMemory: Process Physical Memory: 54.11 MB used, 54.11 MB peak
+[2016.05.12-23.39.38:106][  0]LogMemory: Process Virtual Memory: 57.22 MB used, 57.22 MB peak
+[2016.05.12-23.39.38:106][  0]LogMemory: Physical Memory: 3452.52 MB used, 8056.15 MB total
+[2016.05.12-23.39.38:106][  0]LogMemory: Virtual Memory: 360.44 MB used, 134217728.00 MB total
+[2016.05.12-23.39.38:160][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.12-23.39.38:590][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2016.05.12-23.39.38:590][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.05.12-23.39.38:591][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.05.12-23.39.38:591][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.05.12-23.39.38:592][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.05.12-23.39.38:596][  0]LogD3D11RHI: !Direct3DDevice
+[2016.05.12-23.39.38:596][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.05.12-23.39.38:601][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.12-23.39.38:608][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (G:/Indepedent-Study-1/MyProject14/Intermediate/Shaders/WorkingDirectory/5124/).
+[2016.05.12-23.39.38:608][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Marco/AppData/Local/Temp/UnrealShaderWorkingDir/B3A3702A4D49F82AA15F4782B3AB1060/'.
+[2016.05.12-23.39.38:608][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.12-23.39.39:822][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.12-23.39.39:828][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.12-23.39.39:834][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.12-23.39.39:840][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.12-23.39.39:848][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.12-23.39.39:852][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.12-23.39.39:856][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.12-23.39.39:860][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.12-23.39.39:864][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.12-23.39.39:867][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.12-23.39.39:871][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.12-23.39.39:880][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.12-23.39.39:880][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.12-23.39.39:881][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.12-23.39.39:899][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.12-23.39.39:902][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.12-23.39.39:906][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.12-23.39.39:910][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.12-23.39.39:910][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.12-23.39.40:013][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.12-23.39.40:064][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/Marco/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.12-23.39.40:064][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Marco/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.05.12-23.39.40:064][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/Indepedent-Study-1/MyProject14/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.12-23.39.40:064][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.12-23.39.40:064][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/Indepedent-Study-1/MyProject14/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.12-23.39.40:064][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.12-23.39.40:145][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.12-23.39.40:158][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Marco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.12-23.39.40:393][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.12-23.39.40:397][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.05.12-23.39.40:758][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.12-23.39.40:758][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.12-23.39.41:088][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.12-23.39.41:992][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.12-23.39.42:121][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.05.12-23.39.45:995][  0]SourceControl: Info Source control is disabled
+[2016.05.12-23.39.45:999][  0]SourceControl: Info Source control is disabled
+[2016.05.12-23.39.46:042][  0]SourceControl: Info Source control is disabled
+[2016.05.12-23.39.46:064][  0]SourceControl: Info Source control is disabled
+[2016.05.12-23.39.46:387][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.05.12-23.39.46:388][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.05.12-23.39.46:459][  0]LogEngine: Initializing Engine...
+[2016.05.12-23.39.46:462][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.12-23.39.46:463][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.05.12-23.39.46:623][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.12-23.39.46:627][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.12-23.39.46:730][  0]LogInit: FAudioDevice initialized.
+[2016.05.12-23.39.46:794][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/Marco/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.12-23.39.46:797][  0]LogInit: Texture streaming: Enabled
+[2016.05.12-23.39.46:804][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.05.12-23.39.46:804][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.05.12-23.39.46:804][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 85acbbeb4fa470e2753714ac1086d3bd|88d36554639f44f4bd4e8c6eb6b2f054|3605c710-a9cd-4ece-9192-2fc6e5fb8996
+[2016.05.12-23.39.46:804][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.05.12-23.39.46:814][  0]LogInit: Transaction tracking system initialized
+[2016.05.12-23.39.46:848][  0]BlueprintLog: New page: Editor Load
+[2016.05.12-23.39.47:048][  0]LocalizationService: Info Localization service is disabled
+[2016.05.12-23.39.47:340][  0]LogConsoleResponse:Display: 
+[2016.05.12-23.39.47:532][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.12-23.39.47:611][  0]LogFileCache: Scanning file cache for directory 'G:/Indepedent-Study-1/MyProject14/Content/' took 0.03s
+[2016.05.12-23.39.47:611][  0]SourceControl: Info Source control is disabled
+[2016.05.12-23.39.47:611][  0]Cmd: MAP LOAD FILE="G:/Indepedent-Study-1/MyProject14/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.12-23.39.47:715][  0]LightingResults: New page: Lighting Build
+[2016.05.12-23.39.47:726][  0]MapCheck: New page: Map Check
+[2016.05.12-23.39.47:727][  0]LightingResults: New page: Lighting Build
+[2016.05.12-23.39.47:776][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0336DEAC0
+[2016.05.12-23.39.48:745][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.12-23.39.48:760][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.12-23.39.48:761][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.12-23.39.48:828][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.764ms to complete.
+[2016.05.12-23.39.48:828][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.217
+[2016.05.12-23.39.48:942][  0]LogCollectionManager: Loaded 0 collections in 0.002391 seconds
+[2016.05.12-23.39.48:982][  0]LogFileCache: Scanning file cache for directory 'G:/Indepedent-Study-1/MyProject14/Saved/Collections/' took 0.01s
+[2016.05.12-23.39.48:982][  0]LogFileCache: Scanning file cache for directory 'G:/Indepedent-Study-1/MyProject14/Content/Developers/Marco/Collections/' took 0.01s
+[2016.05.12-23.39.48:982][  0]LogFileCache: Scanning file cache for directory 'G:/Indepedent-Study-1/MyProject14/Content/Collections/' took 0.01s
+[2016.05.12-23.39.48:982][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.05.12-23.39.48:992][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 1893 classes and 338 folders.
+[2016.05.12-23.39.48:999][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.12-23.39.49:051][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.12-23.39.49:055][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.12-23.39.49:094][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.12-23.39.49:098][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.12-23.39.49:122][  0]LogLoad: Full Startup: 13.94 seconds (BP compile: 0.10 seconds)
+[2016.05.12-23.39.49:134][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.12-23.39.49:174][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.05.12-23.39.49:347][  0]LogRenderer: Reallocating scene render targets to support 932x308 (Frame:2).
+[2016.05.12-23.39.57:265][351]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.12-23.39.57:265][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.12-23.39.57:277][351]PIE: New page: PIE session: Minimal_Default (May 12, 2016, 9:39:57 AM)
+[2016.05.12-23.39.57:278][351]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.05.12-23.39.57:329][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051376s)
+[2016.05.12-23.39.57:331][351]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.12-23.39.57:331][351]LogPlayLevel: PIE: World Init took: (0.001357s)
+[2016.05.12-23.39.57:331][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.053366s)
+[2016.05.12-23.39.57:381][351]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.12-23.39.57:537][351]LogInit: FAudioDevice initialized.
+[2016.05.12-23.39.57:666][351]LogWorld: Game class is 'GameMode'
+[2016.05.12-23.39.57:670][351]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.05.12-16.39.57
+[2016.05.12-23.39.57:671][351]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.12-23.39.57:671][351]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.12-23.39.57:671][351]LogWorld: Bringing up level for play took: 0.004603
+[2016.05.12-23.39.57:720][351]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.334
+[2016.05.12-23.39.57:721][351]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.12-23.39.57:750][352]LogRenderer: Reallocating scene render targets to support 932x360 (Frame:267).
+[2016.05.12-23.39.59:093][402]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.39.59:094][402]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.39.59:567][415]LogAssetRegistry: Asset discovery search completed in 17.4565 seconds
+[2016.05.12-23.39.59:567][415]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000025 seconds (found 0 objects)
+[2016.05.12-23.39.59:567][415]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000129 seconds (updated 0 objects)
+[2016.05.12-23.40.00:850][457]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_1.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.40.00:850][457]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_1.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.40.02:617][540]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_2.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.40.02:617][540]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_2.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.40.04:374][622]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_3.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.40.04:374][622]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_3.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.40.06:134][705]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_4.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.40.06:134][705]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_4.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.40.07:892][787]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_5.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.40.07:892][787]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_5.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.40.08:346][808]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.12-23.40.08:416][808]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.12-23.40.08:472][808]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D04494D8A0
+[2016.05.12-23.41.01:538][ 55]LogEditor: Attempting to add actor of class 'SplineMeshActor' to level at -590.00,140.00,-60.00
+[2016.05.12-23.41.02:301][ 86]LogEditor: Attempting to add actor of class 'SplineMeshActor' to level at -1840.00,-130.00,-60.00
+[2016.05.12-23.41.07:399][274]Cmd: DELETE
+[2016.05.12-23.41.07:399][274]Cmd: ACTOR DELETE
+[2016.05.12-23.41.07:400][274]LogEditorActor: Deleted Actor: SplineMeshActor
+[2016.05.12-23.41.07:451][274]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2016.05.12-23.41.37:743][369]LogEditor: Attempting to add actor of class 'SplineMeshActor' to level at -340.00,310.00,-70.00
+[2016.05.12-23.41.59:875][368]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.12-23.42.00:950][368]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 107 classes and 0 folders.
+[2016.05.12-23.42.01:737][369]LogRenderer: Reallocating scene render targets to support 932x452 (Frame:4188).
+[2016.05.12-23.43.33:695][424]BlueprintLog: New page: Compile Spline
+[2016.05.12-23.43.34:031][424]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.05.12-23.43.34:132][424]BlueprintEditorCompileResults: Info [0238.95] Compile of Spline successful! [in 437 ms]
+[2016.05.12-23.43.36:793][521]LogRenderer: Reallocating scene render targets to support 932x460 (Frame:7817).
+[2016.05.12-23.44.21:434][ 20]Cmd: TRANSACTION UNDO
+[2016.05.12-23.44.21:434][ 20]LogEditorTransaction: Undo Move Actors
+[2016.05.12-23.44.31:562][577]Cmd: TRANSACTION UNDO
+[2016.05.12-23.44.31:562][577]LogEditorTransaction: Undo Marquee Select
+[2016.05.12-23.44.35:318][845]Cmd: TRANSACTION UNDO
+[2016.05.12-23.44.35:318][845]LogEditorTransaction: Undo Marquee Select
+[2016.05.12-23.44.36:075][886]Cmd: TRANSACTION UNDO
+[2016.05.12-23.44.36:075][886]LogEditorTransaction: Undo Marquee Select
+[2016.05.12-23.47.00:960][ 97]Cmd: TRANSACTION UNDO
+[2016.05.12-23.47.00:960][ 97]LogEditorTransaction: Undo Marquee Select
+[2016.05.12-23.47.48:015][862]LogEditorViewport: Clicking Background
+[2016.05.12-23.47.48:857][917]Cmd: TRANSACTION UNDO
+[2016.05.12-23.47.48:857][917]LogEditorTransaction: Undo Clicking Background
+[2016.05.12-23.48.08:823][282]Cmd: TRANSACTION UNDO
+[2016.05.12-23.48.08:823][282]LogEditorTransaction: Undo Marquee Select
+[2016.05.12-23.48.13:422][522]Cmd: TRANSACTION UNDO
+[2016.05.12-23.48.13:422][522]LogEditorTransaction: Undo Marquee Select
+[2016.05.12-23.49.40:273][213]Cmd: TRANSACTION UNDO
+[2016.05.12-23.49.40:273][213]LogEditorTransaction: Undo Marquee Select
+[2016.05.12-23.50.28:648][707]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.12-23.50.28:648][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.12-23.50.28:648][707]PIE: New page: PIE session: Minimal_Default (May 12, 2016, 9:50:28 AM)
+[2016.05.12-23.50.28:649][707]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.05.12-23.50.28:674][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025636s)
+[2016.05.12-23.50.28:675][707]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.12-23.50.28:676][707]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2016.05.12-23.50.28:676][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.027329s)
+[2016.05.12-23.50.28:769][707]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.12-23.50.28:927][707]LogInit: FAudioDevice initialized.
+[2016.05.12-23.50.29:039][707]LogWorld: Game class is 'GameMode'
+[2016.05.12-23.50.29:045][707]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.05.12-16.50.29
+[2016.05.12-23.50.29:045][707]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.12-23.50.29:045][707]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.12-23.50.29:045][707]LogWorld: Bringing up level for play took: 0.005823
+[2016.05.12-23.50.29:092][707]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.293
+[2016.05.12-23.50.29:103][707]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.12-23.50.30:526][765]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_6.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.50.30:526][765]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_6.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.50.32:287][841]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_7.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.50.32:287][841]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_7.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.12-23.50.32:379][845]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.12-23.50.32:466][845]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.12-23.50.32:560][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0525B3880
+[2016.05.12-23.51.00:878][  3]LogSavePackage: Save=1625.450684ms
+[2016.05.12-23.51.00:878][  3]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Minimal_Default_Auto18B6D66A04180DC666763079AF99FDFC8.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2016.05.12-23.51.00:889][  3]LogSavePackage: Total save time: 1746.400446ms
+[2016.05.12-23.51.00:889][  3]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2016.05.12-23.51.00:898][  3]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 2.083
+[2016.05.12-23.51.00:898][  3]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.083
+[2016.05.12-23.51.00:908][  3]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Spline] ([1] browsable assets)...
+[2016.05.12-23.51.00:908][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Spline]
+[2016.05.12-23.51.01:081][  3]LogSavePackage: Save=159.362839ms
+[2016.05.12-23.51.01:081][  3]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Spline_Auto1EF349BD449A5D6FFEF02F596339440B8.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Spline_Auto1.uasset'
+[2016.05.12-23.51.01:087][  3]LogSavePackage: Total save time: 165.983777ms
+[2016.05.12-23.51.01:087][  3]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Spline_Auto1.uasset
+[2016.05.12-23.51.01:088][  3]LogFileHelpers: Auto-saving content packages took 0.186
+[2016.05.12-23.58.18:916][ 87]LogClass:Warning: Type mismatch in minDelay of SKEL_Spline_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2016.05.13-00.00.23:338][830]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_950.EdGraphPin_8945''
+[2016.05.13-00.00.23:338][830]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_952.EdGraphPin_8951''
+[2016.05.13-00.00.23:339][830]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_6368.EdGraphPin_8963''
+[2016.05.13-00.00.23:339][830]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3048.EdGraphPin_10384''
+[2016.05.13-00.01.07:125][963]BlueprintLog: New page: Compile Spline
+[2016.05.13-00.01.07:268][963]BlueprintEditorCompileResults: Info [1292.09] Compile of Spline successful! [in 143 ms]
+[2016.05.13-00.01.36:071][151]LogSavePackage: Save=1431.838867ms
+[2016.05.13-00.01.36:071][151]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Minimal_Default_Auto289BA1F4040B25079F69605930D9262EC.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2016.05.13-00.01.36:080][151]LogSavePackage: Total save time: 1530.002944ms
+[2016.05.13-00.01.36:080][151]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2016.05.13-00.01.36:086][151]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.625
+[2016.05.13-00.01.36:086][151]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.625
+[2016.05.13-00.01.36:101][151]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Spline] ([1] browsable assets)...
+[2016.05.13-00.01.36:101][151]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Spline]
+[2016.05.13-00.01.36:377][151]LogSavePackage: Save=268.255493ms
+[2016.05.13-00.01.36:377][151]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Spline_Auto26B90E95B41F6CEA2470490985580D27B.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Spline_Auto2.uasset'
+[2016.05.13-00.01.36:388][151]LogSavePackage: Total save time: 279.201839ms
+[2016.05.13-00.01.36:388][151]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Spline_Auto2.uasset
+[2016.05.13-00.01.36:388][151]LogFileHelpers: Auto-saving content packages took 0.291
+[2016.05.13-00.03.05:761][418]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3048.EdGraphPin_10381''
+[2016.05.13-00.03.05:761][418]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_5668.EdGraphPin_10755''
+[2016.05.13-00.03.05:855][418]LogLinker:Warning: Can't find file '/Game/Blueprints/Train'
+[2016.05.13-00.03.05:856][418]LogLinker: Can't find file '/Game/Blueprints/Train'
+[2016.05.13-00.03.05:856][418]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:DefaultObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/Train.Train_C''
+[2016.05.13-00.03.05:856][418]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2480.EdGraphPin_10450''
+[2016.05.13-00.03.05:857][418]LogLinker: Can't find file '/Game/Blueprints/Train'
+[2016.05.13-00.03.05:857][418]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/Train.Train_C')'
+[2016.05.13-00.03.05:857][418]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_5668.EdGraphPin_10759''
+[2016.05.13-00.03.05:857][418]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_2478.EdGraphPin_9860''
+[2016.05.13-00.11.39:273][240]LogSavePackage: Save=1622.394043ms
+[2016.05.13-00.11.39:273][240]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Minimal_Default_Auto3AB6E8601423B5B7DC63182A3E1802097.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2016.05.13-00.11.39:281][240]LogSavePackage: Total save time: 1732.037578ms
+[2016.05.13-00.11.39:281][240]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2016.05.13-00.11.39:287][240]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 2.056
+[2016.05.13-00.11.39:287][240]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.056
+[2016.05.13-00.11.39:302][240]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Spline] ([1] browsable assets)...
+[2016.05.13-00.11.39:302][240]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Spline]
+[2016.05.13-00.11.39:665][240]LogSavePackage: Save=353.771301ms
+[2016.05.13-00.11.39:665][240]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Spline_Auto379ABD0F340D0DD25298C318FAAB5E490.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Spline_Auto3.uasset'
+[2016.05.13-00.11.39:672][240]LogSavePackage: Total save time: 360.423028ms
+[2016.05.13-00.11.39:672][240]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Spline_Auto3.uasset
+[2016.05.13-00.11.39:672][240]LogFileHelpers: Auto-saving content packages took 0.376
+[2016.05.13-00.11.53:348][624]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.13-00.12.48:085][657]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Self_10.EdGraphPin_9086''
+[2016.05.13-00.12.48:085][657]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_10.EdGraphPin_10401''
+[2016.05.13-00.12.54:550][978]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2480.EdGraphPin_10449''
+[2016.05.13-00.12.54:550][978]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_13.EdGraphPin_9884''
+[2016.05.13-00.12.59:319][431]BlueprintLog: New page: Compile Spline
+[2016.05.13-00.12.59:486][431]BlueprintEditorCompileResults: Info [2004.31] Compile of Spline successful! [in 166 ms]
+[2016.05.13-00.22.08:186][943]LogSavePackage: Save=3393.263672ms
+[2016.05.13-00.22.08:187][943]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Minimal_Default_Auto4A08EC62E492A0A32E2E837A9C3960D6A.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2016.05.13-00.22.08:195][943]LogSavePackage: Total save time: 3963.385236ms
+[2016.05.13-00.22.08:195][943]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap
+[2016.05.13-00.22.08:341][943]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 10.386
+[2016.05.13-00.22.08:341][943]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 10.386
+[2016.05.13-00.22.08:381][943]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Spline] ([1] browsable assets)...
+[2016.05.13-00.22.08:381][943]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Spline]
+[2016.05.13-00.22.09:120][943]LogSavePackage: Save=648.718689ms
+[2016.05.13-00.22.09:120][943]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Spline_Auto43553634F4F67727007BDF498C8BBDC8D.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Spline_Auto4.uasset'
+[2016.05.13-00.22.09:131][943]LogSavePackage: Total save time: 660.243765ms
+[2016.05.13-00.22.09:131][943]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Spline_Auto4.uasset
+[2016.05.13-00.22.09:131][943]LogFileHelpers: Auto-saving content packages took 0.788
+[2016.05.13-00.23.18:346][268]BlueprintLog: New page: Compile Spline
+[2016.05.13-00.23.18:751][268]BlueprintEditorCompileResults: Info [2623.57] Compile of Spline successful! [in 404 ms]
+[2016.05.13-00.23.19:725][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/Spline" FILE="G:/Indepedent-Study-1/MyProject14/Content/StarterContent/Blueprints/Spline.uasset" SILENT=true
+[2016.05.13-00.23.20:405][358]LogSavePackage: Save=672.207886ms
+[2016.05.13-00.23.20:405][358]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/SplineCDCDD927400B07B4A15EE9891347F96C.tmp' to 'G:/Indepedent-Study-1/MyProject14/Content/StarterContent/Blueprints/Spline.uasset'
+[2016.05.13-00.23.20:415][358]LogSavePackage: Total save time: 682.203725ms
+[2016.05.13-00.23.20:415][358]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Content/StarterContent/Blueprints/Spline.uasset
+[2016.05.13-00.23.26:574][454]LogSavePackage: Save=1651.092407ms
+[2016.05.13-00.23.26:574][454]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Minimal_Default0DF5E06E413A566DCC527B9505934624.tmp' to 'G:/Indepedent-Study-1/MyProject14/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.05.13-00.23.26:589][454]LogSavePackage: Total save time: 1673.177756ms
+[2016.05.13-00.23.26:589][454]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.05.13-00.32.43:551][752]BlueprintLog: New page: Compile Character
+[2016.05.13-00.32.43:794][752]BlueprintEditorCompileResults: Info [3188.61] Compile of Character successful! [in 242 ms]
+[2016.05.13-00.32.47:958][136]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.32.47:959][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.13-00.32.48:259][136]PIE: New page: PIE session: Minimal_Default (May 12, 2016, 10:32:48 AM)
+[2016.05.13-00.32.48:283][136]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.05.13-00.32.49:028][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.722157s)
+[2016.05.13-00.32.49:061][136]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.13-00.32.49:066][136]LogPlayLevel: PIE: World Init took: (0.038431s)
+[2016.05.13-00.32.49:067][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.783816s)
+[2016.05.13-00.32.49:192][136]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.13-00.32.49:423][136]LogInit: FAudioDevice initialized.
+[2016.05.13-00.32.49:893][136]LogWorld: Game class is 'GameMode'
+[2016.05.13-00.32.49:986][136]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.05.12-17.32.49
+[2016.05.13-00.32.49:986][136]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.13-00.32.49:986][136]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.13-00.32.49:987][136]LogWorld: Bringing up level for play took: 0.019719
+[2016.05.13-00.32.50:104][136]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.13-00.32.50:184][136]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 2.799
+[2016.05.13-00.32.50:211][136]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.32.51:799][200]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_8.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.32.51:799][200]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_8.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.32.53:566][285]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_9.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.32.53:566][285]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_9.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.32.54:840][346]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.32.55:100][346]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.32.55:328][346]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D06D6CEA20
+[2016.05.13-00.33.33:893][709]LogSavePackage: Save=1527.236450ms
+[2016.05.13-00.33.33:893][709]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Minimal_Default_Auto5B2D2639A4269C1AC9D11329D0A17191F.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap'
+[2016.05.13-00.33.33:905][709]LogSavePackage: Total save time: 1726.483442ms
+[2016.05.13-00.33.33:905][709]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap
+[2016.05.13-00.33.33:918][709]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 2.073
+[2016.05.13-00.33.33:918][709]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.073
+[2016.05.13-00.33.33:926][709]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Blueprints/Character] ([1] browsable assets)...
+[2016.05.13-00.33.34:116][709]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Blueprints/Character.Character]
+[2016.05.13-00.33.34:116][709]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Character]
+[2016.05.13-00.33.34:927][709]LogSavePackage: Save=708.408691ms
+[2016.05.13-00.33.34:927][709]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Character_Auto57D367E874BDFEC3BC7A2358CF781E22C.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Character_Auto5.uasset'
+[2016.05.13-00.33.34:989][709]LogSavePackage: Total save time: 865.167510ms
+[2016.05.13-00.33.34:989][709]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Character_Auto5.uasset
+[2016.05.13-00.33.34:989][709]LogFileHelpers: Auto-saving content packages took 1.070
+[2016.05.13-00.46.17:806][171]LogSavePackage: Save=1868.025879ms
+[2016.05.13-00.46.17:806][171]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Minimal_Default_Auto6976DDF8E48B64C31EFC001AAF3AA8E6A.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto6.umap'
+[2016.05.13-00.46.17:825][171]LogSavePackage: Total save time: 1987.714306ms
+[2016.05.13-00.46.17:825][171]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto6.umap
+[2016.05.13-00.46.17:837][171]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 2.328
+[2016.05.13-00.46.17:837][171]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.328
+[2016.05.13-00.46.17:859][171]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Blueprints/Character] ([1] browsable assets)...
+[2016.05.13-00.46.17:911][171]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Blueprints/Character.Character]
+[2016.05.13-00.46.17:911][171]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Character]
+[2016.05.13-00.46.18:692][171]LogSavePackage: Save=711.509338ms
+[2016.05.13-00.46.18:692][171]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Character_Auto667869A9749A5C0DB6165D58346F0966F.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Character_Auto6.uasset'
+[2016.05.13-00.46.18:704][171]LogSavePackage: Total save time: 778.568368ms
+[2016.05.13-00.46.18:704][171]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Character_Auto6.uasset
+[2016.05.13-00.46.18:704][171]LogFileHelpers: Auto-saving content packages took 0.858
+[2016.05.13-00.46.54:711][567]BlueprintLog: New page: Compile Character
+[2016.05.13-00.46.54:930][567]BlueprintEditorCompileResults: Info [4039.75] Compile of Character successful! [in 218 ms]
+[2016.05.13-00.47.07:882][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.47.07:883][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.13-00.47.07:883][382]PIE: New page: PIE session: Minimal_Default (May 12, 2016, 10:47:07 AM)
+[2016.05.13-00.47.07:883][382]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.05.13-00.47.07:909][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026098s)
+[2016.05.13-00.47.07:910][382]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.13-00.47.07:910][382]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2016.05.13-00.47.07:911][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.027700s)
+[2016.05.13-00.47.07:984][382]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.13-00.47.08:171][382]LogInit: FAudioDevice initialized.
+[2016.05.13-00.47.08:276][382]LogWorld: Game class is 'GameMode'
+[2016.05.13-00.47.08:282][382]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.05.12-17.47.08
+[2016.05.13-00.47.08:282][382]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.13-00.47.08:283][382]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.13-00.47.08:283][382]LogWorld: Bringing up level for play took: 0.005779
+[2016.05.13-00.47.08:284][382]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.13-00.47.08:334][382]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.949
+[2016.05.13-00.47.08:335][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.47.09:701][437]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_10.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.47.09:701][437]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_10.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.47.11:459][508]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_11.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.47.11:459][508]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_11.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.47.13:225][581]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_12.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.47.13:226][581]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_12.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.47.13:763][602]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_0.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.47.13:763][602]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_0.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.47.13:818][602]PIE:Warning: Warning laser_C_0.laser laser_beam has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2016.05.13-00.47.13:819][602]LogScript:Warning: Cannot access 'laser_C_0'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue'
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01EA
+[2016.05.13-00.47.13:881][602]PIE:Error: Error Cannot access 'laser_C_0'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue' from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.47.13:881][602]LogScript:Warning: Accessed None
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01FF
+[2016.05.13-00.47.13:881][602]PIE:Error: Error Accessed None from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.47.14:345][621]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_1.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.47.14:345][621]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_1.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.47.14:346][621]PIE:Warning: Warning laser_C_1.laser laser_beam has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2016.05.13-00.47.14:346][621]LogScript:Warning: Cannot access 'laser_C_1'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue'
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01EA
+[2016.05.13-00.47.14:347][621]PIE:Error: Error Cannot access 'laser_C_1'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue' from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.47.14:347][621]LogScript:Warning: Accessed None
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01FF
+[2016.05.13-00.47.14:347][621]PIE:Error: Error Accessed None from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.47.14:642][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.47.14:739][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.47.14:832][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D06BE0DC60
+[2016.05.13-00.51.46:976][851]BlueprintLog: New page: Compile Spline
+[2016.05.13-00.51.47:020][851]LogBlueprint:Error: [compiler Spline] Error This blueprint (self) is not a Character_C, therefore ' Target ' must have a connection.
+[2016.05.13-00.51.47:046][851]LogBlueprint:Error: [compiler Spline] Error Variable node  Set Spline_Ref  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.05.13-00.51.47:261][851]LogBlueprint:Warning: [compiler Spline] Warning [4332.07] Compile of Spline failed. 2 Fatal Issue(s) 0 Warning(s) [in 275 ms]
+[2016.05.13-00.51.47:261][851]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Character_C, therefore ' Target ' must have a connection.
+[2016.05.13-00.51.47:261][851]BlueprintEditorCompileResults:Error: Error Variable node  Set Spline_Ref  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.05.13-00.51.47:261][851]BlueprintEditorCompileResults:Warning: Warning [4332.07] Compile of Spline failed. 2 Fatal Issue(s) 0 Warning(s) [in 275 ms]
+[2016.05.13-00.53.13:291][348]BlueprintLog: New page: Compile Spline
+[2016.05.13-00.53.13:417][348]BlueprintEditorCompileResults: Info [4418.24] Compile of Spline successful! [in 126 ms]
+[2016.05.13-00.53.14:817][504]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.53.14:818][504]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.05.13-00.53.14:827][504]LogPlayLevel: [PlayLevel] Compiling Character before play...
+[2016.05.13-00.53.14:919][504]LogPlayLevel: PlayLevel: Blueprint regeneration took 101 ms (1 blueprints)
+[2016.05.13-00.53.14:975][504]PIE: New page: PIE session: Minimal_Default (May 12, 2016, 10:53:14 AM)
+[2016.05.13-00.53.14:975][504]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.05.13-00.53.14:995][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020009s)
+[2016.05.13-00.53.14:996][504]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.13-00.53.14:996][504]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2016.05.13-00.53.14:996][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.021172s)
+[2016.05.13-00.53.15:047][504]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.13-00.53.15:275][504]LogInit: FAudioDevice initialized.
+[2016.05.13-00.53.15:373][504]LogWorld: Game class is 'GameMode'
+[2016.05.13-00.53.15:377][504]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.05.12-17.53.15
+[2016.05.13-00.53.15:378][504]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.13-00.53.15:378][504]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.13-00.53.15:379][504]LogWorld: Bringing up level for play took: 0.004942
+[2016.05.13-00.53.15:380][504]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.13-00.53.15:398][504]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.012
+[2016.05.13-00.53.15:398][504]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.53.16:756][564]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_13.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.16:756][564]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_13.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.18:301][641]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_2.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.18:301][641]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_2.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.18:302][641]PIE:Warning: Warning laser_C_2.laser laser_beam has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2016.05.13-00.53.18:303][641]LogScript:Warning: Cannot access 'laser_C_2'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue'
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01EA
+[2016.05.13-00.53.18:304][641]PIE:Error: Error Cannot access 'laser_C_2'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue' from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.53.18:304][641]LogScript:Warning: Accessed None
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01FF
+[2016.05.13-00.53.18:304][641]PIE:Error: Error Accessed None from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.53.18:527][649]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_14.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.18:528][649]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_14.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.19:321][674]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_3.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.19:321][674]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_3.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.19:322][674]PIE:Warning: Warning laser_C_3.laser laser_beam has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2016.05.13-00.53.19:322][674]LogScript:Warning: Cannot access 'laser_C_3'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue'
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01EA
+[2016.05.13-00.53.19:323][674]PIE:Error: Error Cannot access 'laser_C_3'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue' from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.53.19:324][674]LogScript:Warning: Accessed None
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01FF
+[2016.05.13-00.53.19:325][674]PIE:Error: Error Accessed None from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.53.19:533][682]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_4.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.19:533][682]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_4.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.19:533][682]PIE:Warning: Warning laser_C_4.laser laser_beam has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2016.05.13-00.53.19:536][682]LogScript:Warning: Cannot access 'laser_C_4'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue'
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01EA
+[2016.05.13-00.53.19:537][682]PIE:Error: Error Cannot access 'laser_C_4'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue' from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.53.19:537][682]LogScript:Warning: Accessed None
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01FF
+[2016.05.13-00.53.19:538][682]PIE:Error: Error Accessed None from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.53.19:736][688]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_5.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.19:736][688]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_5.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.19:737][688]PIE:Warning: Warning laser_C_5.laser laser_beam has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2016.05.13-00.53.19:738][688]LogScript:Warning: Cannot access 'laser_C_5'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue'
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01EA
+[2016.05.13-00.53.19:738][688]PIE:Error: Error Cannot access 'laser_C_5'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue' from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.53.19:739][688]LogScript:Warning: Accessed None
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01FF
+[2016.05.13-00.53.19:739][688]PIE:Error: Error Accessed None from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.53.20:281][710]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_15.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.20:281][710]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_15.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.20:388][715]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.53.20:491][715]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.53.20:598][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D00E544540
+[2016.05.13-00.53.28:092][ 44]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
+[2016.05.13-00.53.29:351][ 88]Cmd: DELETE
+[2016.05.13-00.53.29:351][ 88]Cmd: ACTOR DELETE
+[2016.05.13-00.53.31:537][ 88]LogEditorActor: Deleted Actor: TargetPoint
+[2016.05.13-00.53.31:594][ 88]LogEditorActor: Deleted 1 Actors (2.090 secs)
+[2016.05.13-00.53.32:812][131]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2016.05.13-00.53.33:291][142]Cmd: DELETE
+[2016.05.13-00.53.33:291][142]Cmd: ACTOR DELETE
+[2016.05.13-00.53.34:254][142]LogEditorActor: Deleted Actor: TargetPoint
+[2016.05.13-00.53.34:331][142]LogEditorActor: Deleted 1 Actors (1.038 secs)
+[2016.05.13-00.53.37:403][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.53.37:403][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.13-00.53.37:404][261]PIE: New page: PIE session: Minimal_Default (May 12, 2016, 10:53:37 AM)
+[2016.05.13-00.53.37:404][261]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.05.13-00.53.37:445][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040646s)
+[2016.05.13-00.53.37:447][261]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.13-00.53.37:448][261]LogPlayLevel: PIE: World Init took: (0.003061s)
+[2016.05.13-00.53.37:448][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.044220s)
+[2016.05.13-00.53.37:545][261]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.13-00.53.37:728][261]LogInit: FAudioDevice initialized.
+[2016.05.13-00.53.37:835][261]LogWorld: Game class is 'GameMode'
+[2016.05.13-00.53.37:839][261]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.05.12-17.53.37
+[2016.05.13-00.53.37:840][261]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.13-00.53.37:840][261]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.13-00.53.37:840][261]LogWorld: Bringing up level for play took: 0.004873
+[2016.05.13-00.53.37:892][261]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.507
+[2016.05.13-00.53.37:893][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.53.39:276][320]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Minimal_Default_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default_C_0
+	Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default:00AB
+[2016.05.13-00.53.39:277][320]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor Enemy in graph 'EventGraph' in blueprint Minimal_Default
+[2016.05.13-00.53.39:277][320]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Minimal_Default_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default_C_0
+	Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default:019D
+[2016.05.13-00.53.39:278][320]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor Enemy in graph 'EventGraph' in blueprint Minimal_Default
+[2016.05.13-00.53.39:279][320]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_16.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.39:279][320]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_16.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.40:443][373]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_6.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.40:443][373]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_6.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.40:444][373]PIE:Warning: Warning laser_C_6.laser laser_beam has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2016.05.13-00.53.40:445][373]LogScript:Warning: Cannot access 'laser_C_6'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue'
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01EA
+[2016.05.13-00.53.40:445][373]PIE:Error: Error Cannot access 'laser_C_6'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue' from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.53.40:445][373]LogScript:Warning: Accessed None
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01FF
+[2016.05.13-00.53.40:446][373]PIE:Error: Error Accessed None from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.53.41:024][399]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_7.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.41:024][399]PIE:Warning: Warning Invalid Simulate Options: Body (laser_C_7.laser laser_beam) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.41:025][399]PIE:Warning: Warning laser_C_7.laser laser_beam has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2016.05.13-00.53.41:026][399]LogScript:Warning: Cannot access 'laser_C_7'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue'
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01EA
+[2016.05.13-00.53.41:027][399]PIE:Error: Error Cannot access 'laser_C_7'. It is pending kill. Property: 'CallFunc_FinishSpawningActor_ReturnValue' from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.53.41:027][399]LogScript:Warning: Accessed None
+	Character_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Character_C_0
+	Function /Game/StarterContent/Blueprints/Character.Character_C:ExecuteUbergraph_Character:01FF
+[2016.05.13-00.53.41:027][399]PIE:Error: Error Accessed None from node Add Impulse in graph 'EventGraph' in blueprint Character
+[2016.05.13-00.53.41:047][400]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Minimal_Default_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default_C_0
+	Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default:00AB
+[2016.05.13-00.53.41:047][400]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor Enemy in graph 'EventGraph' in blueprint Minimal_Default
+[2016.05.13-00.53.41:048][400]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Minimal_Default_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default_C_0
+	Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default:019D
+[2016.05.13-00.53.41:048][400]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor Enemy in graph 'EventGraph' in blueprint Minimal_Default
+[2016.05.13-00.53.41:049][400]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_17.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.41:049][400]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_17.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-00.53.42:141][445]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.53.42:231][445]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-00.53.42:345][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D008D89940
+[2016.05.13-00.56.08:660][942]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3268.EdGraphPin_10437''
+[2016.05.13-00.56.08:661][942]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_626.EdGraphPin_9824''
+[2016.05.13-00.56.08:661][942]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_5683.EdGraphPin_10741''
+[2016.05.13-00.56.08:661][942]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5017.EdGraphPin_9203''
+[2016.05.13-00.56.08:692][942]LogLinker:Warning: Can't find file '/Game/Blueprints/Spline'
+[2016.05.13-00.56.08:693][942]LogLinker: Can't find file '/Game/Blueprints/Spline'
+[2016.05.13-00.56.08:693][942]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/Spline.Spline_C')'
+[2016.05.13-00.56.08:694][942]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_626.EdGraphPin_9825''
+[2016.05.13-00.56.08:694][942]LogLinker: Can't find file '/Game/Blueprints/Spline'
+[2016.05.13-00.56.08:694][942]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/Spline.Spline_C')'
+[2016.05.13-00.56.08:695][942]LogLinker:Warning: Can't find file '/Game/Blueprints/Train'
+[2016.05.13-00.56.08:695][942]LogLinker: Can't find file '/Game/Blueprints/Train'
+[2016.05.13-00.56.08:695][942]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/Train.Train_C')'
+[2016.05.13-00.56.08:695][942]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_2474.EdGraphPin_9831''
+[2016.05.13-00.56.08:696][942]LogLinker: Can't find file '/Game/Blueprints/Train'
+[2016.05.13-00.56.08:696][942]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/Train.Train_C',MemberName="spline_ref",MemberGuid=8BB8674F4CE2E86CA4CB8A8ED435B080)'
+[2016.05.13-00.56.08:696][942]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2764.EdGraphPin_10507''
+[2016.05.13-00.56.08:697][942]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_5683.EdGraphPin_10740''
+[2016.05.13-00.56.08:697][942]LogLinker: Can't find file '/Game/Blueprints/Train'
+[2016.05.13-00.56.08:697][942]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:DefaultObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/Train.Train_C''
+[2016.05.13-00.56.08:697][942]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3268.EdGraphPin_10438''
+[2016.05.13-00.56.08:698][942]LogLinker: Can't find file '/Game/Blueprints/Train'
+[2016.05.13-00.56.08:698][942]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/Train.Train_C')'
+[2016.05.13-00.56.08:698][942]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_5683.EdGraphPin_10744''
+[2016.05.13-00.56.08:698][942]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_2472.EdGraphPin_9818''
+[2016.05.13-00.56.08:746][942]LogBlueprint:Warning: [Spline] CreatePinForVariable: 'spline_ref' variable not found. Base class was probably changed.
+[2016.05.13-00.56.08:746][942]LogBlueprint:Warning: [Spline] CreatePinForVariable: 'spline_ref' variable not found. Base class was probably changed.
+[2016.05.13-00.56.55:167][113]LogBlueprint:Warning: [compiler Minimal_Default] Warning Node  Unknown  is not referencing a valid level actor
+[2016.05.13-00.56.55:177][113]LogBlueprint:Warning: [compiler Minimal_Default] Warning Node  Unknown  is not referencing a valid level actor
+[2016.05.13-00.56.55:180][113]LogBlueprint:Warning: [compiler Minimal_Default] Warning [4640.00] Compile of Minimal_Default successful, but with 2 Warning(s) [in 28 ms]
+[2016.05.13-00.56.55:181][113]LogBlueprint:Warning: [compiler Minimal_Default] Warning [4640.00] Compile of Minimal_Default successful, but with 3 Warning(s) [in 0 ms]
+[2016.05.13-00.56.55:181][113]LogBlueprint:Warning: [compiler Minimal_Default] Warning [4640.00] Compile of Minimal_Default successful, but with 4 Warning(s) [in 0 ms]
+[2016.05.13-00.56.55:264][113]LogBlueprint:Warning: [compiler Minimal_Default] Warning [4640.08] Compile of Minimal_Default successful, but with 5 Warning(s) [in 83 ms]
+[2016.05.13-00.56.55:266][113]LogBlueprint:Warning: [compiler Minimal_Default] Warning [4640.09] Compile of Minimal_Default successful, but with 6 Warning(s) [in 0 ms]
+[2016.05.13-00.56.55:266][113]LogBlueprint:Warning: [compiler Minimal_Default] Warning [4640.09] Compile of Minimal_Default successful, but with 7 Warning(s) [in 0 ms]
+[2016.05.13-00.56.56:691][113]LogSavePackage: Save=1547.729858ms
+[2016.05.13-00.56.56:691][113]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Minimal_Default_Auto7497B710A44487D09A70E9FBD1443D93C.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto7.umap'
+[2016.05.13-00.56.56:703][113]LogSavePackage: Total save time: 1676.448319ms
+[2016.05.13-00.56.56:703][113]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto7.umap
+[2016.05.13-00.56.56:711][113]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.899
+[2016.05.13-00.56.56:711][113]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.899
+[2016.05.13-00.56.56:721][113]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Blueprints/Character] ([1] browsable assets)...
+[2016.05.13-00.56.56:775][113]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Blueprints/Character.Character]
+[2016.05.13-00.56.56:775][113]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Character]
+[2016.05.13-00.56.57:525][113]LogSavePackage: Save=692.753784ms
+[2016.05.13-00.56.57:525][113]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Character_Auto763A36B084546693D2FF83AA2517D3DA1.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Character_Auto7.uasset'
+[2016.05.13-00.56.57:535][113]LogSavePackage: Total save time: 746.904485ms
+[2016.05.13-00.56.57:536][113]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Character_Auto7.uasset
+[2016.05.13-00.56.57:545][113]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Spline] ([1] browsable assets)...
+[2016.05.13-00.56.57:545][113]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Spline]
+[2016.05.13-00.56.57:974][113]LogSavePackage: Save=368.219696ms
+[2016.05.13-00.56.57:974][113]LogSavePackage: Moving 'G:/Indepedent-Study-1/MyProject14/Saved/Spline_Auto770E1D1F54432A66CC3D5D69E096BA21E.tmp' to 'G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Spline_Auto7.uasset'
+[2016.05.13-00.56.57:980][113]LogSavePackage: Total save time: 423.978295ms
+[2016.05.13-00.56.57:980][113]LogSavePackage:Display: Finished SavePackage G:/Indepedent-Study-1/MyProject14/Saved/Autosaves/Game/StarterContent/Blueprints/Spline_Auto7.uasset
+[2016.05.13-00.56.57:980][113]LogFileHelpers: Auto-saving content packages took 1.267
+[2016.05.13-01.08.23:574][569]BlueprintLog: New page: Compile Spline
+[2016.05.13-01.08.23:708][569]BlueprintEditorCompileResults: Info [5328.53] Compile of Spline successful! [in 134 ms]
+[2016.05.13-01.08.24:734][684]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-01.08.24:734][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.13-01.08.24:734][684]PIE: New page: PIE session: Minimal_Default (May 12, 2016, 11:08:24 AM)
+[2016.05.13-01.08.25:044][684]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.05.13-01.08.25:080][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036217s)
+[2016.05.13-01.08.25:082][684]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.13-01.08.25:083][684]LogPlayLevel: PIE: World Init took: (0.002127s)
+[2016.05.13-01.08.25:083][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.038659s)
+[2016.05.13-01.08.25:134][684]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.13-01.08.25:242][684]LogInit: FAudioDevice initialized.
+[2016.05.13-01.08.25:379][684]LogWorld: Game class is 'GameMode'
+[2016.05.13-01.08.25:382][684]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.05.12-18.08.25
+[2016.05.13-01.08.25:382][684]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.13-01.08.25:382][684]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.13-01.08.25:383][684]LogWorld: Bringing up level for play took: 0.003232
+[2016.05.13-01.08.25:383][684]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.13-01.08.25:401][684]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.016
+[2016.05.13-01.08.25:402][684]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-01.08.26:764][728]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Minimal_Default_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default_C_1
+	Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default:00AB
+[2016.05.13-01.08.26:765][728]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor Enemy in graph 'EventGraph' in blueprint Minimal_Default
+[2016.05.13-01.08.26:765][728]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Minimal_Default_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default_C_1
+	Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default:019D
+[2016.05.13-01.08.26:765][728]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor Enemy in graph 'EventGraph' in blueprint Minimal_Default
+[2016.05.13-01.08.26:768][728]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_18.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-01.08.26:769][728]PIE:Warning: Warning Invalid Simulate Options: Body (Enemy_C_18.Box) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.13-01.08.28:258][783]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-01.08.28:365][783]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-01.08.28:481][783]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D008F2EF20
+[2016.05.13-01.08.55:357][918]BlueprintLog: New page: Compile Minimal_Default
+[2016.05.13-01.08.55:590][918]BlueprintEditorCompileResults: Info [5360.41] Compile of Minimal_Default successful! [in 231 ms]
+[2016.05.13-01.09.01:572][509]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.13-01.09.01:572][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.13-01.09.01:573][509]PIE: New page: PIE session: Minimal_Default (May 12, 2016, 11:09:01 AM)
+[2016.05.13-01.09.01:573][509]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.05.13-01.09.01:616][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043525s)
+[2016.05.13-01.09.01:645][509]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.13-01.09.01:646][509]LogPlayLevel: PIE: World Init took: (0.029327s)
+[2016.05.13-01.09.01:646][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.073372s)
+[2016.05.13-01.09.01:768][509]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.13-01.09.02:061][509]LogInit: FAudioDevice initialized.
+[2016.05.13-01.09.02:193][509]LogWorld: Game class is 'GameMode'
+[2016.05.13-01.09.02:203][509]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.05.12-18.09.02
+[2016.05.13-01.09.02:203][509]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.13-01.09.02:203][509]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.13-01.09.02:204][509]LogWorld: Bringing up level for play took: 0.009277
+[2016.05.13-01.09.02:206][509]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.13-01.09.02:260][509]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.874
+[2016.05.13-01.09.02:260][509]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLeve
